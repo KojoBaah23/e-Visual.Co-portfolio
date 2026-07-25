@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Work | Selected Projects — Modern Portfolio</title>
+  <link rel="stylesheet" href="work.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container">
+    <div class="nav-flex">
+      <div class="logo">PORTFOLIO</div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="work.html" class="work-active">Work</a>
+        <a href="cont.html">Contact</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <div class="container work-section">
+    <!-- header -->
+    <div class="section-header">
+      <span class="badge">Selected projects</span>
+      <h2>Crafting digital excellence</h2>
+      <div class="subhead">A curated collection of design & development work that delivers results — from startups to global brands.</div>
+    </div>
+
+    <!-- filter buttons (JS powered) -->
+    <div class="filter-bar" id="filterBar">
+      <button class="filter-btn active" data-filter="all">All work</button>
+      <button class="filter-btn" data-filter="web">Web Apps</button>
+      <button class="filter-btn" data-filter="brand">Brand Identity</button>
+      <button class="filter-btn" data-filter="uiux">UI/UX</button>
+    </div>
+
+    <!-- projects grid -->
+    <div class="projects-grid" id="projectsGrid">
+      <!-- project 1 - featured web app -->
+      <div class="project-card featured" data-category="web">
+        <div class="project-image" style="background-image: linear-gradient(125deg, #12283a, #1f4e6e), url(''); background-blend-mode: overlay;">
+          <span class="project-cat">Web Application</span>
+        </div>
+        <div class="project-info">
+          <h3 class="project-title">e-Visuals Co Dashboard · e-Visuals</h3>
+          <div class="project-description">All‑in‑one analytics platform with real‑time data visualization, transaction monitoring, and role‑based dashboards. Increased user engagement by 42%.</div>
+          
+          <a href="#" class="project-link">View case study →</a>
+        </div>
+      </div>
+
+      <!-- project 2 - brand identity -->
+      <div class="project-card" data-category="brand">
+        <div class="project-image" style="background-image: linear-gradient(135deg, #2c3a4b, #1f2d3c); background-size: cover;">
+          <span class="project-cat">Brand Identity</span>
+        </div>
+        <div class="project-info">
+          <h3 class="project-title">Solara · Clean energy rebrand</h3>
+          <div class="project-description">Complete visual identity, messaging framework, and sustainable design system. Boosted brand recognition by 78% within 6 months.</div>
+          <div class="tech-stack">
+            <span class="tech-tag">Strategy</span>
+            <span class="tech-tag">Logo design</span>
+            <span class="tech-tag">Guidelines</span>
+          </div>
+          <a href="#" class="project-link">See branding →</a>
+        </div>
+      </div>
+
+      
+
+      <!-- project 4 - UI/UX design -->
+      <div class="project-card" data-category="uiux">
+        <div class="project-image" style="background-image: linear-gradient(120deg, #1f3c50, #2d5f7e);">
+          <span class="project-cat">UI/UX Design</span>
+        </div>
+        <div class="project-info">
+          <h3 class="project-title">MediCare · Patient portal redesign</h3>
+          <div class="project-description">Accessible, HIPAA‑friendly interface for appointment scheduling, telemed, and prescription refills. Reduced drop‑off by 54%.</div>
+          <div class="tech-stack">
+            <span class="tech-tag">Figma</span>
+            <span class="tech-tag">Usability testing</span>
+            <span class="tech-tag">Design system</span>
+          </div>
+          <a href="#" class="project-link">View prototype →</a>
+        </div>
+      </div>
+
+      <!-- project 5 - web app (SaaS) -->
+      <div class="project-card" data-category="web">
+        <div class="project-image" style="background-image: linear-gradient(160deg, #132e42, #1b4f6e);">
+          <span class="project-cat">SaaS Platform</span>
+        </div>
+        <div class="project-info">
+          <h3 class="project-title">FlowSpace · Team collaboration hub</h3>
+          <div class="project-description">Real‑time task management, file sharing, and integrated calendar. Scaled to 10k+ active teams in first year.</div>
+          <div class="tech-stack">
+            <span class="tech-tag">index.html</span>
+
+          </div>
+          <a href="#" class="project-link">Live demo →</a>
+        </div>
+      </div>
+
+      <!-- project 6 - branding & digital -->
+      <div class="project-card" data-category="brand">
+        <div class="project-image" style="background-image: linear-gradient(135deg, #2b4055, #1d3448);">
+          <span class="project-cat">Brand + Web</span>
+        </div>
+        <div class="project-info">
+          <h3 class="project-title">Nonna's Kitchen · Artisanal food brand</h3>
+          <div class="project-description">From naming to packaging and launch website – positioned as premium organic brand. 200% online sales growth.</div>
+          <div class="tech-stack">
+            <span class="tech-tag">Brand strategy</span>
+            <span class="tech-tag">Webflow</span>
+            <span class="tech-tag">Illustration</span>
+          </div>
+          <a href="#" class="project-link">Discover case →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- extra CTA -->
+    <div class="cta-wrapper">
+      <a href="#" class="btn-primary">Let’s create something great →</a>
+      <p style="margin-top: 1rem; font-size: 0.85rem; color: #5b6e8c;">Have a project in mind? I'd love to collaborate.</p>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <p>© 2025 Amos Kwadwo Baah — purpose-driven design & development. See more work on Dribbble & GitHub.</p>
+  </div>
+</footer>
+  <script>port.js</script>
+</body>
+</html>
